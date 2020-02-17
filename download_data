@@ -1,0 +1,5 @@
+mkdir data
+wget -P ./data/  https://gitee.com/aczz/mnist/repository/archive/master.zip
+unzip -d ./data/ ./data/master.zip
+mv ./data/mnist/* ./data/
+rm -rf ./data/mnist
