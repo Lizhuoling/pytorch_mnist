@@ -1,13 +1,13 @@
 Author: Zhuoling Li  
 Date: 2020.2.17  
 
-#Environment: 
+# Environment: 
 Ubuntu17+Python2+Pytorch
 
-#Attention: 
+# Attention: 
 Before running the project, please install the used libraries, such as numpy, pytorch and opencv.
 
-#Running step:
+# Running step:
 1.Run the file "download_data" for downloading the mnist dataset. You can use the following codes:  
   sudo chmod +x download_data  
   ./download_data  
